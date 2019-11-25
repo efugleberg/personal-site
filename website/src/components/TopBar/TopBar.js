@@ -89,8 +89,18 @@ const TopBar = () => {
             </Link>
           </SpanRight>
           <SpanRight>
-            <Link to="blog" className="link">
+            <Link to="/portfolio" className="link">
+              Portfolio
+            </Link>
+          </SpanRight>
+          <SpanRight>
+            <Link to="/blog" className="link">
               Blog
+            </Link>
+          </SpanRight>
+          <SpanRight>
+            <Link to="/bookshelf" className="link">
+              Bookshelf
             </Link>
           </SpanRight>
         </ContainerRight>
