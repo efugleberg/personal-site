@@ -28,6 +28,12 @@ code {
   margin-top: 100px;
 }
 
+.Contact {
+  width: 75%;
+  margin: auto
+}
+
+
 .link {
   color: #FFF;
   text-decoration: none;
