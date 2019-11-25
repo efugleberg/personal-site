@@ -11,7 +11,7 @@ const Blog = () => {
        
       <MarginTop><h1>Under Construction</h1></MarginTop>
       <h2>Random blog posts will populate this page soon</h2>
-      <h3>what</h3>
+
 
       
     </div>

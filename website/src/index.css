@@ -33,6 +33,15 @@ code {
   margin: auto
 }
 
+.Portfolio {
+  width: 75%;
+  margin: auto
+}
+
+.image {
+  width: 200;
+  height: 220
+}
 
 .link {
   color: #FFF;

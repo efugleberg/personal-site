@@ -27,7 +27,7 @@ const Contact = () => {
       <div className="Contact">
         <h1>CONTACT:</h1>
         <h3>
-          If there is interest, I plan to assemble distribution list in the
+          I plan to assemble distribution list in the
           future. In the meantime, please feel free to email me at{" "}
           <a href="mailto: eric.fugleberg@gmail.com">
             <strong>eric.fugleberg@gmail.com</strong>
