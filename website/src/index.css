@@ -23,3 +23,15 @@ code {
   color: #333;
   font-family: "PT Sans", sans-serif;
 }
+
+.Content {
+  margin-top: 100px;
+}
+
+.link {
+  color: #FFF;
+  text-decoration: none;
+}
+.link:hover {
+   color: #999
+}
