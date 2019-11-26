@@ -13,9 +13,9 @@ const BookList = [
     },
     {
         id: 3,
-        author: '',
-        title: '',
-        url: ''
+        author: 'Robert Cialdini',
+        title: 'Influence',
+        url: 'https://www.amazon.com/Influence-Practice-Robert-B-Cialdini/dp/0205609996/ref=sr_1_1?qid=1574786136&refinements=p_27%3ARobert+B.+Cialdini&s=books&sr=1-1&text=Robert+B.+Cialdini'
     },
     {
         id: 4,
