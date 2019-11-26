@@ -3,7 +3,7 @@ const BookList = [
         id: 1,
         author: 'Andrew Lo',
         title: 'Adaptive Markets',
-        url: ''
+        url: 'https://www.amazon.com/Adaptive-Markets-Financial-Evolution-Thought/dp/0691135142'
     },
     {
         id: 2,

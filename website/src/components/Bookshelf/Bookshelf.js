@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import BookList from "./BookList.js";
 import Books from "./Books.js";
 
@@ -20,10 +21,11 @@ class Bookshelf extends React.Component {
     return (
       <div className="Content">
         <h3>Here is an inventory of the books I own a physical copy of.</h3>
-        <h3>Someday I may organize this list.</h3>
-        <h3>But that day is not today. </h3>
+        <h3>Someday I may organize this list. But that day is not today. </h3>
         {this.state.books.map(book => (
-          <Books key={book.id} book={book} />
+          <a href={book.url} style={{ color: "black" }}>
+            <Books key={book.id} book={book} />
+          </a>
         ))}
       </div>
     );
