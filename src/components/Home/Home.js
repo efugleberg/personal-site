@@ -46,9 +46,9 @@ const Home = () => {
       </ContainerWrapper>
       <Container>
         <Row>
-          <Col sm>1</Col>
-          <Col sm>2</Col>
-          <Col sm>3</Col>
+          <Col sm>1 of 3</Col>
+          <Col sm>2 of 3</Col>
+          <Col sm>3 of 3</Col>
         </Row>
         <Row>
           <Col>4</Col>
