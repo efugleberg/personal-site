@@ -9,7 +9,6 @@ import Contact from "./components/Contact/Contact.js";
 import Portfolio from "./components/Portfolio/Portfolio.js";
 import Blog from "./components/Blog/Blog.js";
 import Bookshelf from "./components/Bookshelf/Bookshelf.js";
-import Header from "./components/Header.js";
 
 function App() {
   return (
