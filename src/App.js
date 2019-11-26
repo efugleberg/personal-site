@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, withRouter } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  withRouter,
+  Switch
+} from "react-router-dom";
 
 // Components
 import TopBar from "./components/TopBar/TopBar.js";
@@ -15,12 +20,14 @@ function App() {
     <Router>
       <div className="App">
         <TopBar />
-        <Route exact path="/" component={Home} />
-        <Route path="/bio" component={Bio} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/bookshelf" component={Bookshelf} />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/bio" component={Bio} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/bookshelf" component={Bookshelf} />
+        </Switch>
       </div>
     </Router>
   );
