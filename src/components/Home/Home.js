@@ -1,5 +1,9 @@
 import React from "react";
-import { Container, Col, Row } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+// import Container from "react-bootstrap/Container";
+// import Row from "react-bootstrap/Row";
+// import Col from "react-bootstrap/Col";
+// import { Alert } from "reactstrap";
 import styled from "styled-components";
 import halloween from "../../assets/Halloween.jpeg";
 import apples from "../../assets/ApplePicking.jpeg";
@@ -13,26 +17,14 @@ const ContainerWrapper = styled.span`
 `;
 
 const ImgContainer = styled.span`
-  //   display: flex;
+    // display: flex;
+    margin: auto;
   padding: 15px;
-`;
-
-const LinkWrapper = styled.div`
-  width: 100%;
-  display: flex;
-  padding-bottom: 30px;
-`;
-
-const LinkBox = styled.div`
-  width: 33%;
-  display: flex;
 `;
 
 const Home = () => {
   return (
-    // <div className="Content">
-    // </div>
-    <div>
+    <div className="homepage-wrapper">
       <ContainerWrapper>
         <ImgContainer>
           <img src={halloween} alt="halloween"></img>
@@ -44,18 +36,52 @@ const Home = () => {
           <img src={skiing} alt="skiing"></img>
         </ImgContainer>
       </ContainerWrapper>
-      <Container>
-        <Row>
-          <Col sm>1 of 3</Col>
-          <Col sm>2 of 3</Col>
-          <Col sm>3 of 3</Col>
-        </Row>
-        <Row>
-          <Col>4</Col>
-          <Col>5</Col>
-          <Col>6</Col>
-        </Row>
-      </Container>
+
+      <div className="flex-grid-halves">
+        <div className="col">
+          <a
+            href="https://www.ericfugleberg.com/contact"
+            style={{ color: "white" }}
+          >
+            CONTACT
+          </a>
+        </div>
+        <div className="col">
+          <a
+            href="https://www.ericfugleberg.com/portfolio"
+            style={{ color: "white" }}
+          >
+            PORTFOLIO
+          </a>
+        </div>
+      </div>
+
+      <div className="flex-grid-thirds">
+        <div className="col">
+          <a
+            href="https://www.ericfugleberg.com/bio"
+            style={{ color: "black" }}
+          >
+            BIO
+          </a>
+        </div>
+        <div className="col">
+          <a
+            href="https://www.ericfugleberg.com/blog"
+            style={{ color: "black" }}
+          >
+            BLOG
+          </a>
+        </div>
+        <div className="col">
+          <a
+            href="https://www.ericfugleberg.com/bookshelf"
+            style={{ color: "black" }}
+          >
+            BOOKSHELF
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

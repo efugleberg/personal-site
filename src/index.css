@@ -29,11 +29,13 @@ code {
 }
 
 .Contact {
+  max-width: 1200px;
   width: 75%;
   margin: auto
 }
 
 .Portfolio {
+  max-width: 1200px;
   width: 75%;
   margin: auto
 }
