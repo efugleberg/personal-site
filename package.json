@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "efugleberg.github.io/personal-site/",
+  "homepage": "http://www.ericfugleberg.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
