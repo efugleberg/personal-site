@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "http://www.ericfugleberg.com",
+  "homepage": "http://www.ericfugleberg.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
