@@ -37,7 +37,7 @@ const Home = () => {
         </ImgContainer>
       </ContainerWrapper>
 
-      <div className="flex-grid-halves">
+      {/* <div className="flex-grid-halves">
         <div className="col">
           <a
             href="https://www.ericfugleberg.com/contact"
@@ -81,7 +81,7 @@ const Home = () => {
             BOOKSHELF
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

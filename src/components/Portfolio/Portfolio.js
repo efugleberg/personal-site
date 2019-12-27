@@ -44,7 +44,7 @@ const Portfolio = () => {
     <div className="Content">
       <div className="Portfolio">
         <MarginTop>
-          <h3>
+          <p>
             I am a full stack software engineer based in St. Paul, MN. Prior to
             becoming an engineer, I provided assurance services as a CPA for 6
             years and worked in financial services for an additional 3 years. As
@@ -52,10 +52,10 @@ const Portfolio = () => {
             built projects in JavaScript, React.JS, Node.JS, and Python.
             Additional technical skills include SQL, Git, and project workflow
             tools such as Notion and Trello.
-          </h3>
+          </p>
         </MarginTop>
 
-        <h3>
+        <p>
           Below are a few projects I completed during Lambda School. All of the
           repos I worked on, and a few extra, are in my public repository list
           on{" "}
@@ -63,7 +63,7 @@ const Portfolio = () => {
             <strong>Github</strong>
           </a>
           .
-        </h3>
+        </p>
 
         <ContainerLeft>
           <TextSpan>

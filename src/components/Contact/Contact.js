@@ -26,7 +26,7 @@ const Contact = () => {
     <div className="Content">
       <div className="Contact">
         <h1>CONTACT:</h1>
-        <h3>
+        <p>
           I plan to assemble distribution list in the
           future. In the meantime, please feel free to email me at{" "}
           <a href="mailto: eric.fugleberg@gmail.com">
@@ -34,7 +34,7 @@ const Contact = () => {
           </a>
           . There are also links to my LinkedIn and Github profiles. Email will
           likely summon the quickest response.
-        </h3>
+        </p>
         <ContainerBottom>
           <div className="contact-logos">
             <SpanBottom>

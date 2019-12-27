@@ -19,8 +19,8 @@ class Bookshelf extends React.Component {
   render() {
     return (
       <div className="Content">
-        <h3>Here is an inventory of the books I own a physical copy of.</h3>
-        <h3>Someday I may organize this list. But that day is not today. </h3>
+        <p>Here is an inventory of the books I own a physical copy of.<br></br>
+        Someday I may organize this list. But that day is not today. </p>
         {this.state.books.map(book => (
           <a href={book.url} style={{ color: "black" }}>
             <Books key={book.id} book={book} />

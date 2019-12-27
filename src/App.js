@@ -20,14 +20,14 @@ function App() {
     <Router>
       <div className="App">
         <TopBar />
-        <Switch>
+        {/* <Switch> */}
           <Route exact path="/" component={Home} />
           <Route path="/bio" component={Bio} />
           <Route path="/contact" component={Contact} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/blog" component={Blog} />
           <Route path="/bookshelf" component={Bookshelf} />
-        </Switch>
+        {/* </Switch> */}
       </div>
     </Router>
   );

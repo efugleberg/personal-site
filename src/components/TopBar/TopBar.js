@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const TopBarWrapper = styled.div`
-max-width: 1200px;
+max-width: 1500px;
   width: 100%;
   display: flex;
   justify-content: center;
